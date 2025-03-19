@@ -1,34 +1,3 @@
-AHMED NADEEM
-A DE PROJECT: Cricket Analysis Pipelines
-
-Table of Contents
-Table of Contents	1
-1. Data Configuration	2
-Download Dataset	2
-Perform Preprocessing on Dataset Files	2
-Create an Amazon S3 Bucket and Upload CSV Files	2
-2. Setup Athena	2
-Set Up an S3 Bucket for Athena Query Results	2
-Create an AWS Glue Crawler	3
-3. Data Integration & Transformation	3
-Create Tables & Views in Athena	3
-Create a Unified Cricket Performance Table	3
-Partitioning & Exporting to S3	3
-4. Automate S3 Export for New Data	4
-Create an IAM Role with Permissions	4
-Deploy Lambda Function for Automatic Data Updates	4
-Increase Lambda Timeout	4
-Create an EventBridge Rule (S3 to Lambda Trigger)	4
-5. Build Streamlit Dashboard for Cricket Insights	4
-Install Required Libraries	4
-Set Up Streamlit Environment	5
-Implement Key Analytics and Insights	5
-6. Complete Documentation	5
-Summary of Progress	5
-Next Steps	5
-End of Documentation	5
-
-
 1. Data Configuration
 Download Dataset
 Source: Kaggle
